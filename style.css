@@ -1,0 +1,152 @@
+/*****FoliSimple Theme for GetSimple CMS*****************************************/
+
+/* COLORS OPTIONS ***************************/
+
+a:link, a:visited {color: gray;}
+
+a:hover, a:focus {color: black;}
+
+header {
+	background-color: aqua;
+	color: white;
+}
+
+header #projects-content {background-color: yellow;}
+
+header #about-content {background-color: lime;}
+
+header a:link, a:visited {color: black;}
+
+header a:hover, a:focus {color: white;}
+
+
+/* TYPE OPTIONS *****************************/
+
+
+body {
+	font-size: 13px;
+	line-height: 19px;
+}
+
+a:link, a:visited {text-decoration:underline;}
+
+a:hover, a:focus {text-decoration:none;}
+
+header {letter-spacing: 2px;}
+
+header a:link, a:visited {text-decoration:none;}
+
+header a:hover, a:focus {text-decoration:none;}
+
+article h1 {
+	letter-spacing: 2px;
+	padding: 1em;
+}
+
+footer {
+	font-size:10px;
+	letter-spacing: 2px;
+}
+
+/*******************************************************/
+
+/* GENERAL */
+
+.wrapper {
+	width:1020px;
+	margin:0 auto;
+	overflow-x: hidden;
+}
+
+/* HEADER */
+
+header {
+	padding: 14px;
+	margin-bottom: 2em;
+	position: fixed;
+	width: 992px;
+}
+
+header #sitename {
+	display: block;
+	float: left;
+	width: 330px;	
+}
+	
+	/* HEADER: navigation */
+
+header #projects {
+	display: block;
+	float: left;
+	width: 330px;
+	position: relative;
+}
+
+header #projects-content {
+	display: none;
+	position: absolute;
+	top: 4em;
+	max-width: 300px;
+	left: -1em;
+	padding: 1em;
+}
+
+header nav li {
+	padding-bottom: .3em;
+	padding-top: .3em
+}
+
+	/* HEADER: about me */
+
+header #about {
+	display: block;
+	float: left;
+	width: 330px;
+	position: relative	
+}
+
+header #about-content {
+	display: none;
+	position: absolute;
+	top: 4em;
+	max-width: 300px;
+	left: -1em;
+	padding: 1em;
+}
+
+/* BODY CONTENT */
+
+article {
+	margin-top: 4em;
+	min-height: 500px;	
+}
+
+article p {
+	width: 450px;
+	margin-left: 40px;
+	text-indent: 14px;
+	margin-bottom: .8em;
+}
+
+article p img {
+	margin-left: -54px;
+}
+
+article p object {
+	margin-left: -54px;
+}
+
+article p embed {
+	margin-left: -54px;
+}
+
+article p iframe {
+	margin-left: -54px;
+}
+
+/* FOOTER */
+
+footer {
+	text-align: center;
+	padding: 1em;
+}
